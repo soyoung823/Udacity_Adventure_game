@@ -148,5 +148,5 @@ def play_game():
     intro()
     house_or_cave()
 
-
-play_game()
+if __name__ == "__main__":
+    play_game()
